@@ -1,0 +1,45 @@
+package controller;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Controller_N1
+ */
+@WebServlet("/Controller")
+public class Controller_N1 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Controller_N1() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String url = "display_N3.jsp";
+		
+		url.concat("?fname="+request.getParameter("fname"));
+		url.concat("&lname="+request.getParameter("lname"));
+		url.concat("&gender="+request.getParameter("gender"));
+		
+		String[] languageList = request.getParameterValues("language");
+		for(String lang: languageList) {
+			url.concat("&language="+lang);
+		}
+		
+		url.concat("&country="+request.getParameter("country"));
+		
+		request.getRequestDispatcher(url).forward(request, response);
+	}
+
+}

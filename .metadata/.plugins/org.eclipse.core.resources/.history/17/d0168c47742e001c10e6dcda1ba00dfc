@@ -1,0 +1,14 @@
+package display;
+
+import java.util.List;
+import java.util.ListIterator;
+
+public class Display_List_N1<T> {
+	
+	public void display1(List<T> list) {
+		ListIterator<T> ite = list.listIterator();
+		while(ite.hasNext()) {
+			System.out.println(ite.next() + " ");
+		}
+	}
+}

@@ -1,0 +1,9 @@
+127.0.0.1 - - [20/Oct/2021:03:31:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:32:11 +0530] "GET /MVC_app_N13/ HTTP/1.1" 200 306
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:32:32 +0530] "GET /MVC_app_N13/mvc_controller?page=natural HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:32:41 +0530] "GET /MVC_app_N13/mvc_controller?page=natural HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:32:59 +0530] "GET /MVC_app_N13/mvc_controller?page=countries HTTP/1.1" 200 231
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:33:08 +0530] "GET /MVC_app_N13/mvc_controller?page=natural HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:36:54 +0530] "GET /MVC_app_N13/mvc_controller?page=natural HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:39:06 +0530] "GET /MVC_app_N13/mvc_controller?page=countries HTTP/1.1" 200 231
+0:0:0:0:0:0:0:1 - - [20/Oct/2021:03:39:11 +0530] "GET /MVC_app_N13/mvc_controller?page=natural HTTP/1.1" 200 183

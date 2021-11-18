@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="display.jsp" method="get">
+	
+		First Name: <input type="text" name="fname" placeholder="First Name">&nbsp;
+		Last Name: <input type="text" name="lname" placeholder="Last Name"><br>
+		
+		Gender: <input type="radio"  name="gender" value="Male"> Male&nbsp;&nbsp;
+				<input type="radio" name="gender" value="Female"> Female 
+		
+		Languages Known: <input type="checkbox" name="checkbox" value="Hindi"> Hindi
+						 <input type="checkbox" name="checkbox" value="English"> English
+						 <input type="checkbox" name="checkbox" value="Sanskrit"> Sanskrit
+	</form>
+</body>
+</html>

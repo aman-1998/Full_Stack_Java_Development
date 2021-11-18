@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:useBean id="employee" class="learning_beans.Employee" scope="session"></jsp:useBean>
+	<form action="">
+		First Name: <input type="text" name="firstName" value='<jsp:getProperty property="firstName" name="employee"/>'>
+		Last Name: <input type="text" name="lastName" value='<jsp:getProperty property="lastName" name="employee"/>'>
+		Employee Id: <input type="number" name="empId" value='<jsp:getProperty property="empId" name="employee"/>'>
+		Gender: <input type="radio" name="gender" value="Male">Male&nbsp;&nbsp;&nbsp;
+	
+	</form>	
+</body>
+</html>

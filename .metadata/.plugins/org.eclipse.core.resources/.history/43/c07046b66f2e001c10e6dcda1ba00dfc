@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Including_files_N8">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="Including_files_N8"/>
+        <property name="java-output-path" value="/Including_files_N8/build/classes"/>
+    </wb-module>
+</project-modules>

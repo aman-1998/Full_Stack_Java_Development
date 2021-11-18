@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index</title>
+</head>
+<body>
+<b><u>Introduction</u></b>
+<p>This website will help us to understand Login, Logout and Session<br>
+Management using session attribute.</p>
+Click here: <a href="<%= request.getContextPath() %>/IndexController?page=login">Login</a>
+Click here: <a href="<%= request.getContextPath() %>/IndexController?page=about">About</a>
+</body>
+</html>
