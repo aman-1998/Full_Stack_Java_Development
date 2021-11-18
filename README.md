@@ -1,1 +1,1 @@
-## Full Stack Java developer - Java + JSP + Restful WS + Spring
+## Full Stack Java development - Java + JSP + Restful WS + Spring
