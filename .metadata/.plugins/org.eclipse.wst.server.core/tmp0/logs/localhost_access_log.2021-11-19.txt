@@ -1,0 +1,13 @@
+127.0.0.1 - - [19/Nov/2021:13:35:52 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:36:08 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 143
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:42:13 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 500 5007
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:42:43 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 157
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:42:54 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 157
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:43:04 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 158
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:52:09 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:52:20 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:52:23 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:52:33 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 174
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:13:52:41 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:14:05:29 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 179
+0:0:0:0:0:0:0:1 - - [19/Nov/2021:14:08:11 +0530] "GET /JSTL_Functions_N24/jstl_functions_N3.jsp HTTP/1.1" 200 189
