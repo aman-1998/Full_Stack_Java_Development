@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<name>Aman Kumar Mishra</name>
+		<roll>137</roll>
+		<class>XII</class>
+		<gender>Male</gender>
+	</student>
+	<student>
+		<name>Divya Tripathi</name>
+		<roll>130</roll>
+		<class>XI</class>
+		<gender>Female</gender>
+	</student>
+	<student>
+		<name>Kajal Ambani</name>
+		<roll>112</roll>
+		<class>XII</class>
+		<gender>Female</gender>
+	</student>
+	<student>
+		<name>Naveen Patnayak</name>
+		<roll>140</roll>
+		<class>X</class>
+		<gender>Male</gender>
+	</student>
+</students>
