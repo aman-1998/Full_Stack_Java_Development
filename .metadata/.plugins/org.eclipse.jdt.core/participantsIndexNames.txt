@@ -9,6 +9,8 @@ C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsear
 \Forward_Redirect_N10\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1734552128.index
 \Making_Custom_Tag_N28\src
+C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2704409871.index
+\Integrate_web_template_N29\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591568766.index
 \Beans_request_scope_N16\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2523009974.index
@@ -29,6 +31,8 @@ C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsear
 \Servlet_Filter_N22\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\134486699.index
 \JSTL_formatting_N27\src
+C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\92776350.index
+\Integrate_web_template_N29\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1176792892.index
 \JSTL_Core_N23\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4067527671.index
