@@ -19,6 +19,8 @@ C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsear
 \Fixing_forward_redirect_links_N21\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3685182606.index
 \MVC_app_N13\src
+C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1317315006.index
+\Listing_data_on_webpage_title_N33\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1975164798.index
 \Deployment_Descriptor_Learning_N7\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\134486699.index
@@ -39,8 +41,12 @@ C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsear
 \Integrate_web_template_N29\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1176792892.index
 \JSTL_Core_N23\src
+C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3838251526.index
+\Listing_data_on_webpage_title_N33\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4067527671.index
 \Beans_and_scope\src
+C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\128072196.index
+\Listing_data_on_webpage_title_N33\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4111446650.index
 \Session_management_sessionAttribute\src
 C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1828687363.index
