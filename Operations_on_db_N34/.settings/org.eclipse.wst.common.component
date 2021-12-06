@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Operations_on_db_N34">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Operations_on_db_N34"/>
+        <property name="java-output-path" value="/Operations_on_db_N34/build/classes"/>
+    </wb-module>
+</project-modules>

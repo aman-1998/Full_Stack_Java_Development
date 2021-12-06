@@ -159,6 +159,8 @@
   <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="25" maxIdle="5" maxWait="10000" name="jdbc/project" password="SYSTEM" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:XE" username="SYSTEM"/>
 </Context><Context docBase="C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Listing_data_on_webpage_title_N33" path="/Listing_data_on_webpage_title_N33" reloadable="true" source="org.eclipse.jst.jee.server:Listing_data_on_webpage_title_N33">
   <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="25" maxIdle="5" maxWait="10000" name="jdbc/project" password="SYSTEM" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:XE" username="SYSTEM"/>
+</Context><Context docBase="C:\Users\DELL\Desktop\Spring\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Operations_on_db_N34" path="/Operations_on_db_N34" reloadable="true" source="org.eclipse.jst.jee.server:Operations_on_db_N34">
+  <Resource auth="Container" driverClassName="oracle.jdbc.driver.OracleDriver" maxActive="25" maxIdle="5" maxWait="10000" name="jdbc/project" password="SYSTEM" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:XE" username="SYSTEM"/>
 </Context></Host>
     </Engine>
   </Service>
