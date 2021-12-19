@@ -7,7 +7,8 @@
 <title>Image Upload</title>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/image-upload?page=uploadImage" method="post" enctype="multipart/form-data">
+<h1><a href="${pageContext.request.contextPath}">Home</a></h1>
+<form action="${pageContext.request.contextPath}/image-upload?operation=uploadImage" method="post" enctype="multipart/form-data">
 Select files: <input type="file" name="files" multiple>
 <input type="submit" value="upload">
 </form>

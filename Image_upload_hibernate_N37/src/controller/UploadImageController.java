@@ -15,6 +15,7 @@ import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
+import common.Constants;
 import entity.FilesInfo;
 import model.FilesInfoDAO;
 import model.FilesInfoDAOImpl;
@@ -22,25 +23,49 @@ import model.FilesInfoDAOImpl;
 @WebServlet("/image-upload")
 public class UploadImageController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
-	/**
-	 * Path where selected images are saved
-	 */
-	String path = "C://Users//DELL//Documents//images//";
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String page = request.getParameter("page");
-		page = page.toLowerCase();
+		String operation = request.getParameter("operation");
+		operation = operation.toLowerCase();
 		
-		switch(page) {
-		
+		switch(operation) {
 			case "uploadimage": 
 				fileUpload(request, response);
+				listImages(request, response);
+				break;
+			case "updatedetails": 
+				updateImage(request, response);
+				listImages(request, response);
+				break;
+			case "deleteimage": 
+				deleteImage(request, response);
+				listImages(request, response);
 				break;
 			default:
-				request.getRequestDispatcher("index.jsp").forward(request, response);
+				request.getRequestDispatcher("error.jsp").forward(request, response);
 				break;
 		}
+	}
+
+	private void deleteImage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String fileId = request.getParameter("fileId");
+		String fileName = request.getParameter("fileName");
+		FilesInfoDAO dao = new FilesInfoDAOImpl();
+		dao.removeImage(Integer.valueOf(fileId));
+		File fileOnDisk = new File(Constants.path+fileName);
+		fileOnDisk.delete();
+	}
+
+	private void updateImage(HttpServletRequest request, HttpServletResponse response) {
+		String fileId = request.getParameter("fileId");
+		String newCaption = request.getParameter("caption");
+		String newLabel = request.getParameter("label");
+		FilesInfoDAO dao = new FilesInfoDAOImpl();
+		dao.updateDetails(Integer.valueOf(fileId), newCaption, newLabel);
+	}
+
+	private void listImages(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.sendRedirect(request.getContextPath()+"/galleryAppController?page=listingImages");
 	}
 
 	private void fileUpload(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -53,11 +78,13 @@ public class UploadImageController extends HttpServlet {
 				int lastIndexOfSlash = imageName.lastIndexOf("\\");
 				imageName = imageName.substring(lastIndexOfSlash+1);
 				System.out.println(imageName);
-				File file = new File(path+imageName);
+				File file = new File(Constants.path+imageName);
 				if(!file.exists()) {
 					image.write(file);
 					FilesInfoDAO dao = new FilesInfoDAOImpl();
 					dao.addDetails(new FilesInfo(imageName));
+				} else {
+					throw new FileUploadException("Duplicate files can't be uploaded");
 				}
 			}
 		} catch (FileUploadException e) {

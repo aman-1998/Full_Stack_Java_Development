@@ -66,4 +66,10 @@ public class FilesInfo {
 	public void setCaption(String caption) {
 		this.caption = caption;
 	}
+
+	@Override
+	public String toString() {
+		return "FilesInfo [fileId=" + fileId + ", fileName=" + fileName + ", label=" + label + ", caption=" + caption
+				+ "]";
+	}
 }

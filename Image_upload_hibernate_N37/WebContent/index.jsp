@@ -5,9 +5,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Index Page</title>
+<title>Home</title>
 </head>
 <body>
-<c:redirect url="/imageUpload.jsp"></c:redirect>
+Click here to view images: <a href="${pageContext.request.contextPath}/galleryAppController?page=listingimages">view</a><br>
+Click here to upload images: <a href="${pageContext.request.contextPath}/galleryAppController?page=imageUpload">Upload</a>
 </body>
 </html>
