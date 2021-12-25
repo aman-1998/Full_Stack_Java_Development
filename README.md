@@ -6,6 +6,5 @@
 <img src="https://img.shields.io/badge/-Spring-brightgreen" height=30/>
 
 <h2><strong>Note:-</strong></h2>
-<hr>
-1. "main" branch - The IDE used for the code is Eclipse.
+1. "main" branch - The IDE used for the code is Eclipse.<br>
 2. "master" branch - The IDE used for the code is Spring Tool Suite 4 (STS4).
