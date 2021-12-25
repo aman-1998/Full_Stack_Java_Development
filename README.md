@@ -4,3 +4,8 @@
 <img src="https://img.shields.io/badge/-Hibernate-lightgrey" height=30/> 
 <img src="https://img.shields.io/badge/-Restful%20WS-yellowgreen" height=30/> 
 <img src="https://img.shields.io/badge/-Spring-brightgreen" height=30/>
+
+<h2><strong>Note:-</strong></h2>
+<hr>
+1. "main" branch - The IDE used for the code is Eclipse.
+2. "master" branch - The IDE used for the code is Spring Tool Suite 4 (STS4).
