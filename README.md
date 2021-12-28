@@ -8,4 +8,3 @@
 
 <h2><strong>Note:-</strong></h2>
 1. <i>"main"</i> branch - The IDE used for the code is Eclipse.<br>
-2. <i>"master"</i> branch - The IDE used for the code is Spring Tool Suite 4 (STS4).
