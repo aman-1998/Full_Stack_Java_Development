@@ -10,4 +10,4 @@
 <img src="https://img.shields.io/badge/-Eclipse-blueviolet" height=30/>
 
 <h2><strong>Note:-</strong></h2>
-1. The folders are named as <concept>_N<serial No.>, for example Scriplet_N21, Session_Management_N22, etc. It is recommended to follow the order while learning. This tutorial will be extremely benificial for those who want to learn full stack development and also this will prepare the base for advanced topics like Spring, Spring Boot etc.
+The folders are named as <i><concept>_N<serial No.></i>, for example Scriplet_N21, Session_Management_N22, etc. It is recommended to follow the order while learning. This tutorial will be extremely benificial for those who want to learn full stack development and also this will prepare the base for advanced topics like Spring, Spring Boot etc.
