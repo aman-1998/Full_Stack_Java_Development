@@ -5,6 +5,7 @@
 <img src="https://img.shields.io/badge/-JDBC-yellow" height=30/> 
 <img src="https://img.shields.io/badge/-JNDI-ff69b4" height=30/> 
 <img src="https://img.shields.io/badge/-Hibernate-lightgrey" height=30/> 
+<img src="https://img.shields.io/badge/-Oracle%20Database-%23ff0000" height=30/> 
 <img src="https://img.shields.io/badge/-JavaScript-yellowgreen" height=30/> 
 <img src="https://img.shields.io/badge/-CSS-9cf" height=30/> 
 <img src="https://img.shields.io/badge/-Eclipse-blueviolet" height=30/>
