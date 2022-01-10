@@ -14,7 +14,7 @@
 The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21, Session_Management_N22, etc. It is recommended to follow the order while learning. This tutorial will be extremely beneficial for those who want to learn full stack development and also this will prepare the base for advanced topics like Spring, Spring Boot etc.
 
 
-<h2><strong>Some Important links:-</strong></h2>
+<h2><strong>Some important links:-</strong></h2>
 1. https://docs.spring.io/spring-framework/docs/2.0.8/reference/spring-form.tld.html#spring-form.tld.input <br>
 2. https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html <br>
 3. https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/view.html <br>
