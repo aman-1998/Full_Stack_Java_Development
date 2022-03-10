@@ -80,3 +80,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 63. https://www.ques10.com/p/29518/what-do-you-mean-by-json-why-use-json-over-xml/ <br>
 64. https://spring.io/projects/spring-hateoas <br>
 65. https://spring.io/guides/gs/rest-hateoas/ <br>
+66. https://www.baeldung.com/hibernate-one-to-many <br>
