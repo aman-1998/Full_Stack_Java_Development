@@ -81,3 +81,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 64. https://spring.io/projects/spring-hateoas <br>
 65. https://spring.io/guides/gs/rest-hateoas/ <br>
 66. https://www.baeldung.com/hibernate-one-to-many <br>
+67. https://mkyong.com/hibernate/hibernate-parameter-binding-examples/ <br>
