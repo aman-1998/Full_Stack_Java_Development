@@ -53,7 +53,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 36. https://freepngimg.com/png/15560-red-cross-mark-png-file <br>
 37. https://www.pngwing.com/en/free-png-bhnfk <br>
 38. https://www.youtube.com/watch?v=lYI9w7I4N0I <br>
-39.  https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator/7.0.2.Final <br>
+39. https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator/7.0.2.Final <br>
 40. https://docs.jboss.org/hibernate/validator/3.1/reference/en/html_single/ <br>
 41. https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#validator-gettingstarted <br>
 42. https://www.baeldung.com/spring-validation-message-interpolation <br>
@@ -65,7 +65,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 48. https://howtodoinjava.com/java/regex/java-regex-validate-email-address/ <br>
 49. https://www.w3schools.com/java/java_regex.asp <br>
 50. https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8/21.4.0.0.1 <br>
-51. 51. https://www.javatpoint.com/spring-mvc-requestparam-annotation <br>
+51. https://www.javatpoint.com/spring-mvc-requestparam-annotation <br>
 52. https://initialcommit.com/blog/pass-data-from-jsp-to-spring-controller <br>
 53. https://stackoverflow.com/questions/6989711/spring-mvc-pre-populate-checkboxes <br>
 54. https://stackoverflow.com/questions/1900843/how-to-compare-two-object-variables-in-el-expression-language <br>
@@ -75,7 +75,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 58. https://www.youtube.com/playlist?list=PLsyeobzWxl7ps4Z1C4VMtvZEx5-PgyoYI <br>
 59. https://restfulapi.net/http-status-codes/ <br>
 60. https://www.restapitutorial.com/httpstatuscodes.html <br>
-61. 61. https://stackoverflow.com/questions/4738817/error-in-hibernate-cfg-xml <br>
+61. https://stackoverflow.com/questions/4738817/error-in-hibernate-cfg-xml <br>
 62. https://stackoverflow.com/questions/42065877/entitymanagerfactory-is-closed-hibernate <br>
 63. https://www.ques10.com/p/29518/what-do-you-mean-by-json-why-use-json-over-xml/ <br>
 64. https://spring.io/projects/spring-hateoas <br>
@@ -84,7 +84,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 67. https://mkyong.com/hibernate/hibernate-parameter-binding-examples/ <br>
 68. https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.first-application <br>
 69. https://docs.spring.io/spring-boot/docs/1.4.x/reference/html/common-application-properties.html <br>
-70. 70. https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples <br>
+70. https://www.codejava.net/frameworks/spring-boot/connect-to-oracle-database-examples <br>
 71. https://www.bezkoder.com/spring-boot-hibernate-oracle/ <br>
 72. https://spring.io/guides/gs/accessing-data-mysql/ <br>
 73. https://www.baeldung.com/sql-logging-spring-boot <br>
@@ -99,7 +99,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 82. https://stackoverflow.com/questions/30528255/how-to-access-a-value-defined-in-the-application-properties-file-in-spring-boot <br>
 83. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config <br>
 84. https://howtodoinjava.com/hibernate/hibarnate-build-sessionfactory/ <br>
-85. 85. https://howtodoinjava.com/spring-boot2/logging/multiple-log-files/ <br>
+85. https://howtodoinjava.com/spring-boot2/logging/multiple-log-files/ <br>
 86. https://logback.qos.ch/manual/layouts.html#conversionWord <br>
 87. https://logback.qos.ch/manual/filters.html <br>
 88. https://logback.qos.ch <br>
@@ -119,4 +119,48 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 102. https://www.youtube.com/watch?v=TxjIlNYRZ5M <br>
 103. https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas <br>
 104. https://www.youtube.com/watch?v=PdxPp-cn7bI <br>
-105. https://spring.io/projects/spring-cloud
+105. https://spring.io/projects/spring-cloud <br>
+106. https://www.freepnglogos.com <br>
+107. https://www.baeldung.com/web-mvc-configurer-adapter-deprecated <br>
+108. https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html <br>
+109. https://www.javadevjournal.com/spring-security/spring-security-login/ <br>
+110. https://o7planning.org/10353/configure-static-resources-in-spring-mvc <br>
+111. https://stackoverflow.com/questions/29396281/what-does-configuredefaultservlethandling-means <br>
+112. https://stackoverflow.com/questions/47552835/the-type-webmvcconfigureradapter-is-deprecated <br>
+113. https://mkyong.com/spring-mvc/spring-mvc-webmvcconfigureradapter-is-deprecated/ <br>
+114. https://bbbootstrap.com/snippets/bootstrap-5-login-form-using-neomorphism-89456141 <br>
+115. https://bbbootstrap.com <br>
+116. https://stackoverflow.com/questions/25368535/spring-security-does-not-allow-css-or-js-resources-to-be-loaded <br>
+117. https://github.com/spring-projects/spring-security/issues/4857 <br>
+118. https://docs.spring.io/spring-security/site/docs/4.1.3.RELEASE/guides/html5/helloworld-boot.html <br>
+119. https://codepen.io - Templates with code (No need to download)<br>
+120. https://www.tutorialspoint.com/spring_security/spring_security_with_taglib.htm <br>
+121. https://www.javaguides.net/2019/06/spring-security-how-to-get-current-logged-in-username-in-jsp.html <br>
+122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
+123. https://www.baeldung.com/java-config-spring-security <br>
+124. https://www.baeldung.com/spring-security-login <br>
+125. https://www.youtube.com/watch?v=U-NQlwbgZLo - Common User (user in CDB) and Local User (user in PDB) in Oracle database <br>
+126. https://www.baeldung.com/spring-security-jdbc-authentication <br>
+127. https://docs.spring.io/spring-security/site/docs/4.2.x/reference/html/appendix-schema.html <br>
+128. https://mkyong.com/spring-security/spring-security-form-login-using-database/ <br>
+129. https://www.baeldung.com/hibernate-c3p0 <br>
+130. https://mvnrepository.com/artifact/com.mchange/c3p0/0.9.5.5 <br>
+131. https://www.mchange.com/projects/c3p0/ - c3p0 connection pooling <br>
+132. https://danboterhoven.medium.com/why-you-should-use-bcrypt-to-hash-passwords-af330100b861 <br>
+133. https://en.wikipedia.org/wiki/Bcrypt <br>
+134. https://crackstation.net/hashing-security.htm - Salted Password Hashing <br>
+135. https://www.bcryptcalculator.com - Generate Bcrypt passwords <br>
+136. https://www.aegissofttech.com/articles/bcrypt-password-encoding-spring-security.html - Encrypt password using Bcrypt algorithm <br>
+137. https://www.youtube.com/watch?v=3xSeynG0-zM - Signin and Login with Bcrypt password <br>
+138. https://www.digitalocean.com/community/tutorials/spring-hibernate-integration-example-tutorial <br>
+139. https://stackoverflow.com/questions/1099025/spring-transactional-what-happens-in-background <br>
+140. https://www.baeldung.com/transaction-configuration-with-jpa-and-spring <br>
+141. https://www.baeldung.com/hibernate-c3p0 - Hibernate with c3p0 connection pool <br>
+142. https://stackoverflow.com/questions/475893/what-are-the-required-c3p0-settings-for-hibernate-in-order-to-avoid-deadlocks <br>
+143. https://mkyong.com/hibernate/how-to-configure-the-c3p0-connection-pool-in-hibernate/ <br>
+144. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
+145. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
+146. https://thorben-janssen.com/jpa-native-queries/#resultHandling <br>
+147. https://docs.jboss.org/hibernate/stable/validator/api/org/hibernate/validator/constraints/package-summary.html - Hibernate validator constraints <br>
+148. https://docs.jboss.org/hibernate/validator/3.1/reference/en/html_single/ - Javax validation constraints <br>
+149. https://stackoverflow.com/questions/11244569/what-is-referencedcolumnname-used-for-in-jpa <br>
