@@ -1,6 +1,6 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.List" %>
-<%@ page import="entity.Users" %>
+<%@ page import="personal.learning.entity.Users" %>
 
 <%@ include file="/include/header.jsp" %>
 

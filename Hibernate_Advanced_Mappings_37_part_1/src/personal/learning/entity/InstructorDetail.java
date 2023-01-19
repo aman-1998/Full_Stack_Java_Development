@@ -1,4 +1,4 @@
-package entity;
+package personal.learning.entity;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -19,7 +19,7 @@ public class InstructorDetail {
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "instructor_detail_generator")
-	@SequenceGenerator(name = "instructor_detail_generator", sequenceName = "instructor_detail_sequence")
+	@SequenceGenerator(name = "instructor_detail_generator", sequenceName = "instructor_detail_sequence", allocationSize = 1)
 	private int id;
 	
 	@Column(name = "youtube_channel", unique = true)
@@ -35,6 +35,12 @@ public class InstructorDetail {
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "instructor_id")
 	private Instructor instructor;
+	
+	public InstructorDetail() {}
+	
+	public InstructorDetail(String youtubeChannel) {
+		this.youtubeChannel = youtubeChannel;
+	}
 	
 	public int getId() {
 		return id;

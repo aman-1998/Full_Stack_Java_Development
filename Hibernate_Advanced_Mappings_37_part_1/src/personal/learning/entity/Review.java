@@ -1,4 +1,4 @@
-package entity;
+package personal.learning.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,6 +20,12 @@ public class Review {
 	
 	@Column(name = "comments")
 	private String comments;
+	
+	public Review() {}
+
+	public Review(String comments) {
+		this.comments = comments;
+	}
 
 	public int getId() {
 		return id;

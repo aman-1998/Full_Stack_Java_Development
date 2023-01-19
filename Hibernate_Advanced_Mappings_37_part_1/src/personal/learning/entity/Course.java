@@ -1,4 +1,4 @@
-package entity;
+package personal.learning.entity;
 
 import java.util.List;
 
@@ -48,6 +48,12 @@ public class Course {
 			   joinColumns = @JoinColumn(name = "course_id"), 
 			   inverseJoinColumns = @JoinColumn(name = "student_id"))
 	private List<Student> studentList;
+	
+	public Course() {}
+	
+	public Course(int id, String courseName) {
+		this.courseName = courseName;
+	}
 	
 	public int getId() {
 		return id;

@@ -1,4 +1,4 @@
-package entity;
+package personal.learning.entity;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -37,6 +37,12 @@ public class InstructorJobDetail {
 	@JoinColumn(name = "instructor_id")
 	private Instructor instructor;
 	
+	public InstructorJobDetail() {}
+	
+	public InstructorJobDetail(String organization) {
+		this.organization = organization;
+	}
+
 	public int getId() {
 		return id;
 	}

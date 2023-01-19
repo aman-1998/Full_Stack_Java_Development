@@ -1,6 +1,5 @@
-package entity;
+package personal.learning.entity;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -38,6 +37,13 @@ public class Instructor {
 	
 	@OneToMany(mappedBy = "instructor", cascade = CascadeType.ALL)
 	private List<Course> courseList;
+	
+	public Instructor() {}
+	
+	public Instructor(String instructorFirstName, String instructorLastName) {
+		this.instructorFirstName = instructorFirstName;
+		this.instructorLastName = instructorLastName;
+	}
 	
 	public int getId() {
 		return id;

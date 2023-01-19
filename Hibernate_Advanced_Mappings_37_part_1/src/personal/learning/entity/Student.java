@@ -1,4 +1,4 @@
-package entity;
+package personal.learning.entity;
 
 import java.util.List;
 
@@ -30,11 +30,11 @@ public class Student {
 	@Column(name = "last_name")
 	private String lastName;
 	
-	@Column(name = "email")
-	private String email;
-	
 	@Column(name = "roll")
 	private int roll;
+	
+	@Column(name = "email")
+	private String email;
 	
 	@ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
 	@JoinTable(name = "course_student", 
@@ -42,6 +42,14 @@ public class Student {
 			   inverseJoinColumns = @JoinColumn(name = "course_id"))
 	private List<Course> courseList;
 	
+	public Student() {}
+	
+	public Student(String firstName, String lastName, int roll) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.roll = roll;
+	}
+
 	public int getId() {
 		return id;
 	}
