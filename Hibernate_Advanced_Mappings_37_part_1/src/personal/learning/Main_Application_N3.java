@@ -44,7 +44,10 @@ public class Main_Application_N3 {
 			//Instructor instructor = new Instructor("Pawan", "Singh");
 			//instructor.setInstructorEmail("pawan.singh@gmail.com");
 			
-			Instructor instructor = (Instructor) session.createQuery("from instructor ins where ins.instructorEmail = :email").setParameter("email", "vinod.paswan@gmail.com").getResultList().get(0);
+			Instructor instructor = (Instructor) session.createQuery("from instructor ins where ins.instructorEmail = :email")
+					                                    .setParameter("email", "vinod.paswan@gmail.com")
+					                                    .getResultList()
+					                                    .get(0);
 			
 			instructorJobDetail.setInstructor(instructor);
 			
