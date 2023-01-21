@@ -30,7 +30,7 @@ public class Course {
 	private String courseName;
 	
 	@Column(name = "price")
-	private String price;
+	private int price;
 	
 	@Column(name = "course_description")
 	private String courseDescripton;
@@ -51,7 +51,7 @@ public class Course {
 	
 	public Course() {}
 	
-	public Course(int id, String courseName) {
+	public Course(String courseName) {
 		this.courseName = courseName;
 	}
 	
@@ -71,11 +71,11 @@ public class Course {
 		this.courseName = courseName;
 	}
 	
-	public String getPrice() {
+	public int getPrice() {
 		return price;
 	}
 	
-	public void setPrice(String price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
 

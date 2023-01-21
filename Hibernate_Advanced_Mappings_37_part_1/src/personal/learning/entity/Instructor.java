@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -32,7 +33,7 @@ public class Instructor {
 	@Column(name = "instructor_email", unique = true)
 	private String instructorEmail;
 	
-	@OneToOne(mappedBy = "instructor", cascade = CascadeType.ALL)
+	@OneToOne(fetch = FetchType.LAZY ,mappedBy = "instructor", cascade = CascadeType.ALL)
 	private InstructorDetail instructorDetail;
 	
 	@OneToMany(mappedBy = "instructor", cascade = CascadeType.ALL)

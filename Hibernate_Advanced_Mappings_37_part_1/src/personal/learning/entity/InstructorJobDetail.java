@@ -28,7 +28,7 @@ public class InstructorJobDetail {
 	private String officeAddress;
 	
 	@Column(name = "office_hr_phone_no")
-	private String officeHrPhoneNo;
+	private long officeHrPhoneNo;
 	
 	@Column(name = "office_hr_email")
 	private String officeHrEmail;
@@ -67,11 +67,11 @@ public class InstructorJobDetail {
 		this.officeAddress = officeAddress;
 	}
 	
-	public String getOfficeHrPhoneNo() {
+	public long getOfficeHrPhoneNo() {
 		return officeHrPhoneNo;
 	}
 	
-	public void setOfficeHrPhoneNo(String officeHrPhoneNo) {
+	public void setOfficeHrPhoneNo(long officeHrPhoneNo) {
 		this.officeHrPhoneNo = officeHrPhoneNo;
 	}
 	

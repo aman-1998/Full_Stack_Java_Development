@@ -31,7 +31,9 @@ public static void main(String[] args) {
 		
 		try {
 			txn = session.beginTransaction();
-			
+			/*
+			 * instructor(save) -> instructorDetail(save)
+			 */
 			//1st Instructor
 			Instructor instructor1 = new Instructor("Aman", "Mishra");
 			instructor1.setInstructorEmail("aman.mishra@gmail.com");
@@ -220,6 +222,7 @@ public static void main(String[] args) {
 			}
 		} finally {
 			session.close();
+			sessionFactory.close();
 		}
 		
 	}
