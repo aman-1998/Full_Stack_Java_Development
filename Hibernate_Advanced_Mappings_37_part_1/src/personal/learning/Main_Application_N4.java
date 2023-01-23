@@ -55,10 +55,7 @@ public class Main_Application_N4 {
 			Review review2 = new Review("Good for beginers");
 			Review review3 = new Review("Presentation was good");
 			
-			List<Review> reviews = Stream.of(review1, 
-					                         review2, 
-					                         review3)
-										.collect(Collectors.toCollection(ArrayList<Review>::new));
+			List<Review> reviews = Stream.of(review1, review2, review3).collect(Collectors.toCollection(ArrayList<Review>::new));
 			
 			course.setReviewList(reviews);
 			
