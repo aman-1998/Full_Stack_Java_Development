@@ -34,7 +34,7 @@ public class InstructorJobDetail {
 	private String officeHrEmail;
 	
 	@OneToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
-	@JoinColumn(name = "instructor_id")
+	@JoinColumn(name = "instructor_id", unique = true)
 	private Instructor instructor;
 	
 	public InstructorJobDetail() {}

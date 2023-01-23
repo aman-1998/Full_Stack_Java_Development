@@ -40,7 +40,7 @@ public class Course {
 	private Instructor instructor;
 	
 	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name = "course_id")
+	@JoinColumn(name = "course_id", nullable=false)
 	private List<Review> reviewList;
 	
 	@ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
