@@ -24,16 +24,16 @@ public class Student {
 	@SequenceGenerator(name = "student_generator", sequenceName = "student_sequence", allocationSize = 1)
 	private int id;
 	
-	@Column(name = "first_name")
+	@Column(name = "student_first_name")
 	private String firstName;
 	
-	@Column(name = "last_name")
+	@Column(name = "student_last_name")
 	private String lastName;
 	
 	@Column(name = "roll")
 	private int roll;
 	
-	@Column(name = "email")
+	@Column(name = "student_email")
 	private String email;
 	
 	@ManyToMany(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
@@ -96,6 +96,12 @@ public class Student {
 
 	public void setCourseList(List<Course> courseList) {
 		this.courseList = courseList;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", roll=" + roll
+				+ ", email=" + email + ", courseList=" + courseList + "]";
 	}
 	
 }

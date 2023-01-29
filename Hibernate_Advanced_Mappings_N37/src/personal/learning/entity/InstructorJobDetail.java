@@ -90,5 +90,11 @@ public class InstructorJobDetail {
 	public void setInstructor(Instructor instructor) {
 		this.instructor = instructor;
 	}
+
+	@Override
+	public String toString() {
+		return "InstructorJobDetail [id=" + id + ", organization=" + organization + ", officeAddress=" + officeAddress
+				+ ", officeHrPhoneNo=" + officeHrPhoneNo + ", officeHrEmail=" + officeHrEmail + "]";
+	}
 	
 }

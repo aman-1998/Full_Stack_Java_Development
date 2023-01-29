@@ -93,5 +93,12 @@ public class Instructor {
 	public void setCourseList(List<Course> courseList) {
 		this.courseList = courseList;
 	}
+
+	@Override
+	public String toString() {
+		return "Instructor [id=" + id + ", instructorFirstName=" + instructorFirstName + ", instructorLastName="
+				+ instructorLastName + ", instructorEmail=" + instructorEmail + ", instructorDetail=" + instructorDetail
+				+ ", courseList=" + courseList + "]";
+	}
 	
 }

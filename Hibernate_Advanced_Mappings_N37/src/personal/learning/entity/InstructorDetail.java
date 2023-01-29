@@ -81,5 +81,11 @@ public class InstructorDetail {
 	public void setInstructor(Instructor instructor) {
 		this.instructor = instructor;
 	}
+
+	@Override
+	public String toString() {
+		return "InstructorDetail [id=" + id + ", youtubeChannel=" + youtubeChannel + ", channelDescription="
+				+ channelDescription + ", noOfSubscriber=" + noOfSubscriber + "]";
+	}
 	
 }
