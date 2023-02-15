@@ -15,7 +15,7 @@ import personal.learning.entity.InstructorJobDetail;
 import personal.learning.entity.Review;
 import personal.learning.entity.Student;
 
-public class Main_Aplication_N2 {
+public class Main_Application_N2 {
 	
 	public static void main(String[] args) {
 		

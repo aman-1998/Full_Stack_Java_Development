@@ -30,6 +30,9 @@ public static void main(String[] args) {
 		Transaction txn = null;
 		
 		try {
+			/*
+			 * select instructorDetail whose id is 3
+			 */
 			txn = session.beginTransaction();
 			
 			int instructorJobDetailId = 3;

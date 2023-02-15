@@ -37,6 +37,7 @@ public class Student {
 	@Column(name = "student_email")
 	private String email;
 	
+	// @ManyToMany(fetch = FetchType.LAZY, mappedBy = "studentList", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH}) // If we use this then we can't delete student directly if it is also present in course_student table. We will get this error: ERROR: ORA-02292: integrity constraint (C##PRACTICE.STUDENT_ID_FK) violated - child record found
 	@ManyToMany(fetch = FetchType.LAZY, cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
 	@JoinTable(name = "course_student", 
 			   joinColumns = @JoinColumn(name = "student_id"), 

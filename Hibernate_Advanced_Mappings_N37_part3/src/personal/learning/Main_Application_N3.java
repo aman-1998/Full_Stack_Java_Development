@@ -31,7 +31,9 @@ public static void main(String[] args) {
 		
 		try {
 			txn = session.beginTransaction();
-			
+			/*
+			 * delete(instructorJobDetail) -> delete(instructor) -> delete(instructorDetail) -> delete(course) -> delete(review) -> delete(course_student) 
+			 */
 			int instructorId = 64;
 			Instructor instructor = session.get(Instructor.class, instructorId);
 			

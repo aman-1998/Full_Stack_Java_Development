@@ -36,7 +36,7 @@ public class Main_Application_N9 {
 		try {
 			txn = session.beginTransaction();
 			/*
-			 * course(save)
+			 * course(save) -> Review(save)
 			 */
 			Instructor instructor = (Instructor) session.createQuery("from instructor ins where ins.instructorEmail = :email")
 						.setParameter("email", "prasant.dhwan@gmail.com")

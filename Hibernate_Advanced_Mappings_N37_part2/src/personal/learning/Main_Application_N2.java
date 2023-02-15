@@ -30,6 +30,9 @@ public static void main(String[] args) {
 		Transaction txn = null;
 		
 		try {
+			/*
+			 * Update instructorJobDetail set organization = 'Bosch', officeHrEmail = "hr@bosch.com" where id = 3
+			 */
 			txn = session.beginTransaction();
 			
 			int instructorJobDetailId = 3;

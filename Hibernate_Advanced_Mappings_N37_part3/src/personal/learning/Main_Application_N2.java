@@ -32,6 +32,9 @@ public static void main(String[] args) {
 		try {
 			txn = session.beginTransaction();
 			
+			/*
+			 * delete(instructorDetail) -> delete(instructor) -> delete(instructorJobDetail) -> delete(course) -> delete(review) -> delete(course_student) 
+			 */
 			int instructorId = 53;
 			Instructor instructor = session.get(Instructor.class, instructorId);
 			

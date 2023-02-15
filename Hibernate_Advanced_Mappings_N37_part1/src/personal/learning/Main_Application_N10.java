@@ -33,6 +33,9 @@ public class Main_Application_N10 {
 		Transaction txn = null;
 		
 		try {
+			/*
+			 * student(save), course(save) -> course_student(save)
+			 */
 			txn = session.beginTransaction();
 			
 			Instructor instructor1 = (Instructor) session.createQuery("from instructor ins where ins.instructorEmail = :email")

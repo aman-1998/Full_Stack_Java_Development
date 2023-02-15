@@ -36,7 +36,7 @@ public static void main(String[] args) {
 			Instructor instructor = session.get(Instructor.class, instructorId);
 			
 			/*
-			 * Since, I got instructor so we don need to run query for instructor detail again. But just for learning
+			 * Since, I got instructor so we don't need to run query for instructor detail again. But just for learning
 			 * purpose I am doing so.
 			 */
 			InstructorDetail instructorDetail = (InstructorDetail) session.createQuery("from instructor_detail insd where insd.instructor = :instruc")
