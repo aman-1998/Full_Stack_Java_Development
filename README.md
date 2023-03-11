@@ -175,4 +175,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 158. https://www.baeldung.com/jpa-sql-resultset-mapping <br>
 159. https://stackoverflow.com/questions/1780896/java-getting-the-properties-of-a-class-to-construct-a-string-representation - getting list of fields in a class <br>
 160. https://www.geeksforgeeks.org/clone-method-in-java-2/ <br>
-161.https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.12.0 - Apache Commons <br>
+161. https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.12.0 - Apache Commons <br>
+162. https://www.geeksforgeeks.org/hibernate-native-sql/ <br>
