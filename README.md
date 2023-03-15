@@ -177,3 +177,6 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Scriplet_N21,
 160. https://www.geeksforgeeks.org/clone-method-in-java-2/ <br>
 161. https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.12.0 - Apache Commons <br>
 162. https://www.geeksforgeeks.org/hibernate-native-sql/ <br>
+163. https://howtodoinjava.com/hibernate/hibernate-many-to-many-mapping/  - ManyToMany <br>
+164. https://stackoverflow.com/questions/21985308/how-is-the-owning-side-of-this-many-to-many-relationship-determined  - Owning entity <br>
+165. https://stackoverflow.com/questions/36803306/should-jointable-be-specified-in-both-sides-of-a-manytomany-relationship  - Two owning entity <br>
