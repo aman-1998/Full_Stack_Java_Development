@@ -25,7 +25,7 @@ public class Utility<T> {
 	public List<T> query(Session session, String sql, Class<T> clazz) {
 		Query query = session.createNativeQuery(sql);
 		query.setResultTransformer(Criteria.ALIAS_TO_ENTITY_MAP);
-		List data = query.list();
+		List data = query.list();  // List of Maps  
 		List<T> outputViewList = populateSummaryView(data, clazz);
 		return outputViewList;
 	}
