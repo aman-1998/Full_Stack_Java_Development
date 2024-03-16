@@ -9,5 +9,6 @@
 <body>
 We are going to learn about Jenkins.
 Build -> Test -> Deploy
+<br>We are testing automatic deploy.
 </body>
 </html>
