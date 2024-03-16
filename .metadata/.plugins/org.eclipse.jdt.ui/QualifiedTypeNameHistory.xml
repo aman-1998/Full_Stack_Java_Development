@@ -45,4 +45,5 @@
 <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
 <fullyQualifiedTypeName name="personal.learning.entity.StudentCourse"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.ObjectUtils"/>
 </qualifiedTypeNameHistroy>
